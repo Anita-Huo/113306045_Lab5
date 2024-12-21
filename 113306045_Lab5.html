@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="113306045_Lab5.css">
+</head>
+<body>
+	<div class="container">
+    <input type="number" id="mathGrade" placeholder="Math" />
+    <input type="number" id="englishGrade" placeholder="English" />
+    <button id="submitButton">Submit</button>
+
+    <table id="gradesTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Math</th>
+          <th>English</th>
+          <th>Average</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dynamic rows will be added here -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Average</td>
+          <td id="mathAverage">0.00</td>
+          <td id="englishAverage">0.00</td>
+          <td id="overallAverage">0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <script src="113306045_Lab5.js"></script>
+
+</body>
+</html>
